@@ -1,4 +1,5 @@
-"""This program allows the user to register student IDs for an exam and prints a register."""
+"""This program allows the user to register student IDs for an exam 
+prints and then saves a textfile of a register."""
 
 import os
 import time
