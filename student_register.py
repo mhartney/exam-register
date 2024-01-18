@@ -98,7 +98,6 @@ if student_info:
                 file.write(f"Student {key}: ID #{value} ".ljust(40, '.') + '\n\n')
             file.write('=' * 40 + '\n')
             print("\033[92mStudent register successfully generated in 'reg_form.txt'.\033[0m")
-        file.close()
     # General exception to catch error, as I don't expect one to occur.
     except PermissionError:
         print("Error: Permission denied. Unable to write to 'reg_form.txt'.")
